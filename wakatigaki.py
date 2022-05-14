@@ -1,5 +1,6 @@
 import pandas as pd
-!git clone https://github.com/blue0912/GOHAN-recommend.git
+#gitにcloneしてtsvをダウンロード
+!git clone https://github.com/blue0912/GOHAN.git
 
 #集めたデータの確認、データフレームに落とす
 df=pd.read_csv('/content/GOHAN-recommend/gohan - シート1.tsv',sep='\t',header=None)
